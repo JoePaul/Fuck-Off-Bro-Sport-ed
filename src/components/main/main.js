@@ -2,10 +2,10 @@ import React from 'react';
 
 import axios from 'axios';
 import Button from '@material-ui/core/Button'; //https://material-ui.com/
-import './comic.css'
+import './main.css'
 import { CircularProgress } from '@material-ui/core';
 
-class Comic extends React.Component {
+class Main extends React.Component {
 
     constructor(props) {
         super(props);
@@ -53,4 +53,4 @@ class Comic extends React.Component {
     }
 }
 
-export default Comic;
+export default Main;
