@@ -1,6 +1,38 @@
 body {
     font: 14px "Century Gothic", Futura, sans-serif;
     margin: 20px;
-    background-color: black;
-    color: white;
+    background-color: whitesmoke;
+    color: dodgerblue;
+    margin: 10px;
   }
+
+label{
+    font-size: xx-large;
+    padding-bottom: 10px;
+}
+
+option{
+    background-color: white;
+    padding: 5px;
+    font: 14px "Century Gothic", Futura, sans-serif;
+}
+
+option:hover{
+    background-color: lightgrey;
+}
+
+.selectStyle{
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.buttonStyle {
+    width: 70px;
+    height: 30px;
+    border: aqua;
+    border-radius: 15px;
+    background-color: pink;
+    margin: 10px;
+    font: 14px "Century Gothic", Futura, sans-serif;
+}
